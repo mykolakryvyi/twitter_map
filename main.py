@@ -15,8 +15,7 @@ def twitter_api(person):
     """
     base_url = "https://api.twitter.com/"
 
-    bearer_token = "AAAAAAAAAAAAAAAAAAAAAIKvMwEAAAAAGfXtAizYuenmkYuQLZ4qCDL%2F3n8%3D0\
-Bqy4HA6TVWqzcYq7Nk9UK0slRiRyVZvlEBtpyowkdXOupLBNf"
+    bearer_token = ""
 
     search_url = '{}1.1/friends/list.json'.format(base_url)
 
